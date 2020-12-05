@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Read free articles",
+  "version": "0.1",
+  "description": "Read free articles",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.gelocal.it/*",
+        "*://rep.repubblica.it/*",
+        "https://www.ilgazzettino.it/*",
+        "https://www.ilmessaggero.it/*"
+      ],
+      "js": ["gazzettino-messaggero.js", "repubblica.js", "nuovavenezia.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
