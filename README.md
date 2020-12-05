@@ -1,4 +1,4 @@
-####How to install
+# How to install
 
 - Go to [chrome://extensions][chrome://extensions]
 - Enable developer's mode
