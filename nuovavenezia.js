@@ -15,7 +15,7 @@ if (isArticle) {
         if (payWall.length > 0) {
           payWall[0].remove();
         }
-      }, 2000);
+      }, 3000);
     })
   );
 }

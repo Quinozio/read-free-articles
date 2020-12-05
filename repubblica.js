@@ -30,7 +30,7 @@ if (isRepubblicaStandard && !isRepubblicaWebapp) {
       response.text().then((data) => {
         setTimeout(() => {
           document.getElementsByTagName("html")[0].innerHTML = data;
-        }, 5000);
+        }, 3000);
       })
     );
   }
