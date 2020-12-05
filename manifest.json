@@ -7,7 +7,7 @@
     {
       "matches": [
         "*://*.gelocal.it/*",
-        "*://rep.repubblica.it/*",
+        "*://*.repubblica.it/*",
         "https://www.ilgazzettino.it/*",
         "https://www.ilmessaggero.it/*"
       ],
